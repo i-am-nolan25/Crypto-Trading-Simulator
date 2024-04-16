@@ -70,7 +70,7 @@ Allows users to test their trading strategies with no financial consequences by 
 
 ## Wireframes
 
-
+![Stock Trading Simulator Paper Prototype](https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/fe2013f1-380e-4ffb-9e7a-6e91d33155eb)
 
 ### [BONUS] Digital Wireframes & Mockups
 - [Figma](https://www.figma.com/file/H2WbVmgBXrxCYSx8kANSDd/Stock-Trading-Simulator?type=design&node-id=0%3A1&mode=design&t=FOfEpMZUSdp5Mzni-1)
