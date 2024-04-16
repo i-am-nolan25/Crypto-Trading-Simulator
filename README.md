@@ -15,13 +15,12 @@ Allows users to test their trading strategies with no financial consequences by 
 
 ### App Evaluation
 
-[Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category**: Financial Services
+- **Mobile**: A user can easily trade stocks or cryptos with a mobile app with a secured authenticiation like Face ID.
+- **Story**: Helps everyone invest their finance wisely with an easy user-friendly iOS app.
+- **Market**: Global Online Trading Platform Market size was valued at USD 9.50 billion in 2022. Transaction fees can be collected for a monetization purpose. Another potential business model could be a subscription.
+- **Habit**: Traders has to use the app daily not to miss any critical market updates and trades daily to get an experience.
+- **Scope**: V1 would allow users to simply trade stocks on an app. V2 will expand the market size by letting users trade cryptos as well. V3 will add news features, providing users with latest up-to-date news regarding stocks or cryptos. V4 will include in-app trading lessons or short courses offered by top-notch universities or trading firms.
 
 ## Product Spec
 
@@ -29,49 +28,56 @@ Allows users to test their trading strategies with no financial consequences by 
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+- See real-time stock updates on a home page
+- See detailed information of a particular stock on a detail page
+- Select certain stocks in a favorite watchlist
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+- Allows users to buy stocks
+- Allows users to sell stocks
+- Shows users profit and loss of stocks they owned
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- [ ] Home Page
+- Users can see real-time stocks
+
+- [ ] Watch List Page
+- Users can see their favorite stocks in a separate watchlist
+
+- [ ] Detail Stock Page
+- Users can see detailed information of a particular stock such as Open, High, Low, Market Cap, etc.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+- Home Page
+- Watch List Page
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- [ ] Home Page
+- => Watch List Page
+- => Detail Stock Page
+
+- [ ] Watch List Page
+- => Detail Stock Page
+
+- [ ] Detail Stock Page
+- => None
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
 
 ### [BONUS] Digital Wireframes & Mockups
+- [Figma](https://www.figma.com/file/H2WbVmgBXrxCYSx8kANSDd/Stock-Trading-Simulator?type=design&node-id=0%3A1&mode=design&t=FOfEpMZUSdp5Mzni-1)
 
 ### [BONUS] Interactive Prototype
-
+- [Figma](https://www.figma.com/file/H2WbVmgBXrxCYSx8kANSDd/Stock-Trading-Simulator?type=design&node-id=0%3A1&mode=design&t=FOfEpMZUSdp5Mzni-1)
+  
 ## Schema 
 
 [This section will be completed in Unit 9]
