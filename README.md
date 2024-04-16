@@ -1,4 +1,4 @@
-# Wasabi
+# Stock Trading Simulator
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ### Description
 
-[Description of your app]
+Allows users to test their trading strategies with no financial consequences by simulating the risk-free trading experience. A user can see real-time stocks or cryptocurrencies and buy and sell with their given amount of money.
 
 ### App Evaluation
 
