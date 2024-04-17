@@ -40,7 +40,7 @@ Allows users to test their trading strategies with no financial consequences by 
 
 ### 2. Screen Archetypes
 
-- [ ] Home Page
+- [x] Home Page
 - Users can see real-time stocks
 
 - [ ] Watch List Page
@@ -58,7 +58,7 @@ Allows users to test their trading strategies with no financial consequences by 
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] Home Page
+- [x] Home Page
 - => Watch List Page
 - => Detail Stock Page
 
@@ -73,11 +73,18 @@ Allows users to test their trading strategies with no financial consequences by 
 ![Stock Trading Simulator Paper Prototype](https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/fe2013f1-380e-4ffb-9e7a-6e91d33155eb)
 
 ### [BONUS] Digital Wireframes & Mockups
-- [Figma](https://www.figma.com/file/H2WbVmgBXrxCYSx8kANSDd/Stock-Trading-Simulator?type=design&node-id=0%3A1&mode=design&t=FOfEpMZUSdp5Mzni-1)
+<img width="843" alt="Screenshot 2024-04-16 at 9 56 36 PM" src="https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/9c538f38-e935-472c-b537-32b32b8d93b5">
+<img width="904" alt="Screenshot 2024-04-16 at 9 56 22 PM" src="https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/6fc7abb2-91dd-4192-999c-bc413a5f117d">
 
 ### [BONUS] Interactive Prototype
-- [Figma](https://www.figma.com/file/H2WbVmgBXrxCYSx8kANSDd/Stock-Trading-Simulator?type=design&node-id=0%3A1&mode=design&t=FOfEpMZUSdp5Mzni-1)
-  
+
+https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/b06b6d78-4806-4966-b129-df8e4389026f
+
+### Reflection on Progress
+- Currently finishing up the Figma prototype
+- Working on API for the Home Page
+- Still exploring what API to choose
+
 ## Schema 
 
 [This section will be completed in Unit 9]
