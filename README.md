@@ -1,4 +1,4 @@
-# Stock Trading Simulator
+# Crypto Trading Simulator
 
 ## Table of Contents
 
