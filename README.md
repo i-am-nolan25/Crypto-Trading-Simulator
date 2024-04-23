@@ -112,3 +112,6 @@ https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/e880f1
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+### Acknowledgement
+This iOS app is inspired by [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking)'s "SwiftUI Crypto App with MVVM" course series.
