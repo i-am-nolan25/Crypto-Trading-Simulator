@@ -46,7 +46,7 @@ Allows users to test their trading strategies with no financial consequences by 
 - [x] Portfolio Page
 - Users can see their owned cryptos in a portfolio list
 
-- [x] Detail Crypto Page
+- [x] Detailed Crypto Page
 - Users can see detailed information of a particular crypto such as Open, High, Low, Market Cap, Price Change, etc.
 
 ### 3. Navigation
@@ -61,13 +61,13 @@ Allows users to test their trading strategies with no financial consequences by 
 - [x] Home Page
 - => Portfolio Page
 - => Info Page  
-- => Detail Crypto Page
+- => Detailed Crypto Page
   
 - [x] Portfolio Page
-- => Detail Crypto Page
+- => Detailed Crypto Page
 - => Edit Portfolio Page
 
-- [x] Detail Crypto Page
+- [x] Detailed Crypto Page
 - => None
 
 ## Wireframes
@@ -82,19 +82,22 @@ Allows users to test their trading strategies with no financial consequences by 
 
 https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/b06b6d78-4806-4966-b129-df8e4389026f
 
-### Reflection on Progress (Week 8)
-- Currently finishing up the Figma prototype
+### Sprint 1 (Week 8)
+- Finished up the Figma prototype for a Stock Trading Simulator
+- Ended up choosing CoinGecko's Crypto API instead of Stock API
 - Working on API for the Home Page
-- Still exploring what API to choose
 
-### Reflection on Progress (Week 9)
-- Decided to use Crypto API instead of Stock API
+https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/09eeb44c-41a3-420d-ab20-784413695f88
+
+### Sprint 2 (Week 9)
 - Used CoinGecko's Crypto API to get data
 - Used SwiftUI instead of UIKit
-- Built a ```home page``` showing top 250 crypto coins in the market
+- Built a ```Home Page``` showing top 250 crypto coins in the market
 - Added a search bar that can search a particular crypto through the list with a name or symbol
-- Built a ```portfolio page``` that a user can actually add how much amount of a particular crypto they want to hold
-- Built a ```detail crypto page``` that has a chart demonstration and all the detailed insights about a particular crypto
+- Built a ```Portfolio Page``` that a user can actually add how much amount of a particular crypto they want to hold
+- Built a ```Detailed Crypto Page``` that has a chart demonstration and all the detailed insights about a particular crypto
+
+https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/e880f1d2-7065-443d-8029-4bbd59abc9ab
 
 ## Schema 
 
