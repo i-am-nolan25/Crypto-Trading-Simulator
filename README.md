@@ -1,4 +1,4 @@
-# Crypto Trading Simulator
+# Crypto Trading Simulator Using CoinGecko's Crypto API
 
 ## Table of Contents
 
@@ -11,16 +11,16 @@
 
 ### Description
 
-Allows users to test their trading strategies with no financial consequences by simulating the risk-free trading experience. A user can see real-time stocks or cryptocurrencies and buy and sell with their given amount of money.
+Allows users to test their trading strategies with no financial consequences by simulating the risk-free trading experience. A user can see real-time cryptocurrencies and build a financial portfolio.
 
 ### App Evaluation
 
 - **Category**: Financial Services
-- **Mobile**: A user can easily trade stocks or cryptos with a mobile app with a secured authenticiation like Face ID.
+- **Mobile**: A user can easily trade cryptos with a mobile app with a secured authenticiation like Face ID.
 - **Story**: Helps everyone invest their finance wisely with an easy user-friendly iOS app.
 - **Market**: Global Online Trading Platform Market size was valued at USD 9.50 billion in 2022. Transaction fees can be collected for a monetization purpose. Another potential business model could be a subscription.
 - **Habit**: Traders has to use the app daily not to miss any critical market updates and trades daily to get an experience.
-- **Scope**: V1 would allow users to simply trade stocks on an app. V2 will expand the market size by letting users trade cryptos as well. V3 will add news features, providing users with latest up-to-date news regarding stocks or cryptos. V4 will include in-app trading lessons or short courses offered by top-notch universities or trading firms.
+- **Scope**: V1 would allow users to simply trade cryptos on an app. V2 will expand the market size by letting users trade stocks as well. V3 will add news features, providing users with latest up-to-date news regarding stocks or cryptos. V4 will include in-app trading lessons or short courses offered by top-notch universities or trading firms.
 
 ## Product Spec
 
@@ -28,9 +28,9 @@ Allows users to test their trading strategies with no financial consequences by 
 
 **Required Must-have Stories**
 
-- See real-time stock updates on a home page
-- See detailed information of a particular stock on a detail page
-- Select certain stocks in a favorite watchlist
+- See real-time crypto updates on a home page
+- See detailed information of a particular crypto on a detail page
+- Add a certain crypto in a portfolio list
 
 **Optional Nice-to-have Stories**
 
@@ -41,31 +41,33 @@ Allows users to test their trading strategies with no financial consequences by 
 ### 2. Screen Archetypes
 
 - [x] Home Page
-- Users can see real-time stocks
+- Users can see real-time cryptos
 
-- [ ] Watch List Page
-- Users can see their favorite stocks in a separate watchlist
+- [x] Portfolio Page
+- Users can see their owned cryptos in a portfolio list
 
-- [ ] Detail Stock Page
-- Users can see detailed information of a particular stock such as Open, High, Low, Market Cap, etc.
+- [x] Detail Crypto Page
+- Users can see detailed information of a particular crypto such as Open, High, Low, Market Cap, Price Change, etc.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
 - Home Page
-- Watch List Page
+- Portfoilio Page
 
 **Flow Navigation** (Screen to Screen)
 
 - [x] Home Page
-- => Watch List Page
-- => Detail Stock Page
+- => Portfolio Page
+- => Info Page  
+- => Detail Crypto Page
+  
+- [x] Portfolio Page
+- => Detail Crypto Page
+- => Edit Portfolio Page
 
-- [ ] Watch List Page
-- => Detail Stock Page
-
-- [ ] Detail Stock Page
+- [x] Detail Crypto Page
 - => None
 
 ## Wireframes
@@ -80,10 +82,19 @@ Allows users to test their trading strategies with no financial consequences by 
 
 https://github.com/i-am-nolan25/Stock-Trading-Simulator/assets/113712250/b06b6d78-4806-4966-b129-df8e4389026f
 
-### Reflection on Progress
+### Reflection on Progress (Week 8)
 - Currently finishing up the Figma prototype
 - Working on API for the Home Page
 - Still exploring what API to choose
+
+### Reflection on Progress (Week 9)
+- Decided to use Crypto API instead of Stock API
+- Used CoinGecko's Crypto API to get data
+- Used SwiftUI instead of UIKit
+- Built a ```home page``` showing top 250 crypto coins in the market
+- Added a search bar that can search a particular crypto through the list with a name or symbol
+- Built a ```portfolio page``` that a user can actually add how much amount of a particular crypto they want to hold
+- Built a ```detail crypto page``` that has a chart demonstration and all the detailed insights about a particular crypto
 
 ## Schema 
 
