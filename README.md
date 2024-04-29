@@ -99,19 +99,87 @@ https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/09eeb4
 
 https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/e880f1d2-7065-443d-8029-4bbd59abc9ab
 
-## Schema 
+### Sprint 3 (Week 10)
+- Documented detailed information for `Models` used in the project
+- Make sure an `API KEY` is safe
+- Completed an User Acceptance Testing (UAT) for quality assurance (QA) purposes
+ 
+## Models
 
-[This section will be completed in Unit 9]
+### CoinModel
 
-### Models
+The `CoinModel` struct represents a cryptocurrency and its associated data. It conforms to the `Identifiable` and `Codable` protocols.
 
-[Add table of models]
+#### Properties
 
-### Networking
+- `id`: Unique identifier of the cryptocurrency.
+- `symbol`: Symbol of the cryptocurrency.
+- `name`: Name of the cryptocurrency.
+- `image`: URL string of the cryptocurrency's image.
+- `currentPrice`: Current price of the cryptocurrency.
+- `marketCap`: Market capitalization of the cryptocurrency.
+- `marketCapRank`: Rank of the cryptocurrency by market capitalization.
+- `fullyDilutedValuation`: Fully diluted valuation of the cryptocurrency.
+- `totalVolume`: Total volume of the cryptocurrency.
+- `high24H`: Highest price in the last 24 hours.
+- `low24H`: Lowest price in the last 24 hours.
+- `priceChange24H`: Price change in the last 24 hours.
+- `priceChangePercentage24H`: Percentage price change in the last 24 hours.
+- `marketCapChange24H`: Market cap change in the last 24 hours.
+- `marketCapChangePercentage24H`: Percentage market cap change in the last 24 hours.
+- `circulatingSupply`: Circulating supply of the cryptocurrency.
+- `totalSupply`: Total supply of the cryptocurrency.
+- `maxSupply`: Maximum supply of the cryptocurrency.
+- `ath`: All-time high price of the cryptocurrency.
+- `athChangePercentage`: Percentage change from the all-time high price.
+- `athDate`: Date of the all-time high price.
+- `atl`: All-time low price of the cryptocurrency.
+- `atlChangePercentage`: Percentage change from the all-time low price.
+- `atlDate`: Date of the all-time low price.
+- `lastUpdated`: Date and time when the data was last updated.
+- `sparklineIn7D`: Sparkline data representing price changes over the last 7 days.
+- `currentHoldings`: The amount of this cryptocurrency currently held.
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+### CoinDetailModel
+
+The `CoinDetailModel` struct represents detailed information about a cryptocurrency. It conforms to the `Codable` protocol.
+
+#### Properties
+
+- `id`: Unique identifier of the cryptocurrency.
+- `symbol`: Symbol of the cryptocurrency.
+- `name`: Name of the cryptocurrency.
+- `blockTimeInMinutes`: Average time between blocks in minutes.
+- `hashingAlgorithm`: The algorithm used for hashing.
+- `description`: Detailed description of the cryptocurrency. This property is of type `Description`, which may contain additional information.
+- `links`: Links associated with the cryptocurrency. This property is of type `Links`, which may contain relevant URLs such as website and socials.
+
+### MarketDataModel
+
+The `MarketDataModel` struct represents market data related to cryptocurrencies. It conforms to the `Codable` protocol.
+
+#### Properties
+
+- `totalMarketCap`: Total market capitalization for each currency represented as a dictionary where the keys are currency symbols (e.g., "USD", "BTC") and the values are their corresponding total market capitalizations.
+- `totalVolume`: Total trading volume for each currency represented as a dictionary where the keys are currency symbols (e.g., "USD", "BTC") and the values are their corresponding total trading volumes.
+- `marketCapPercentage`: Market capitalization percentage for each currency represented as a dictionary where the keys are currency symbols (e.g., "USD", "BTC") and the values are their corresponding market capitalization percentages.
+- `marketCapChangePercentage24HUsd`: Percentage change in total market capitalization in the last 24 hours, denominated in USD.
+
+
+### StatisticModel
+
+The `StatisticModel` struct represents a statistic with a title, value, and optional percentage change. It conforms to the `Identifiable` protocol.
+
+#### Properties
+
+- `id`: Unique identifier generated using UUID.
+- `title`: Title of the statistic.
+- `value`: Value associated with the statistic.
+- `percentageChange`: Optional percentage change value.
+
+## Networking
+
+CoinGecko's Crypto API is used in the project. An `API KEY` is not provided for security purposes.
 
 ### Acknowledgement
 This iOS app is inspired by [Swiftful Thinking](https://www.youtube.com/@SwiftfulThinking)'s "SwiftUI Crypto App with MVVM" course series.
