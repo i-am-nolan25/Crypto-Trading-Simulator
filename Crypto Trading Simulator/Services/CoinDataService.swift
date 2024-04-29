@@ -26,9 +26,10 @@ class CoinDataService {
             print("Rate limit exceeded. Unable to make request.")
             return
         }
-        
+
+        // Make sure to add your own API key
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) { // Wait for 2 seconds
-            guard let url = URL(string: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h&X-Cg-Pro-Api-Key=CG-hGKGJHK91UmrTEngkny1S4nx") else {
+            guard let url = URL(string: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h&X-Cg-Pro-Api-Key={YOUR_API_KEY}") else {
                 print("Invalid URL")
                 return
             }
