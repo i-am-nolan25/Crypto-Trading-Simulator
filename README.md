@@ -103,7 +103,9 @@ https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/e880f1
 - Documented detailed information for `Models` used in the project
 - Make sure an `API KEY` is safe
 - Completed an User Acceptance Testing (UAT) for quality assurance (QA) purposes
- 
+
+https://github.com/i-am-nolan25/Crypto-Trading-Simulator/assets/113712250/2d2b8272-395e-4308-a78d-0e21c0dfcee6
+
 ## Models
 
 ### CoinModel
